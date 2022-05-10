@@ -1,9 +1,9 @@
 import React from "react";
 
-const Film = ({ children, index }) => {
+const Film = ({ children }) => {
     return (
         <>
-            <li key={index}>{children}</li>
+            <li>{children}</li>
         </>
     )
 }

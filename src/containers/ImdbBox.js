@@ -38,7 +38,7 @@ const ImdbBox = () => {
                 <h3>Upcoming Film Releases for UK</h3>
                 <FilmList films={films} />
                 <div className="center">
-                    <Link />
+                    <Link/>
                 </div>
             </div>
         </>
